@@ -11,7 +11,8 @@ def wordFinder(str):
         return "cal"
     elif "date" in str:
         return "date"
-    else:                                                                                                        return None
+    else:
+        return None
     
 y = cgi.FieldStorage()
 value = y.getvalue("x")
